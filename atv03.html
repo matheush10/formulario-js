@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label >Digite um Nome</label>
+    <input id="ip"> <button type="button" onclick="analise()">Analise</button> 
+
+
+    <script>
+        function analise(){
+    let ip = document.getElementById("ip").value; // lendo o id ip
+    let separados = (ip.match(/[a e i o u A E i O U]/g)) // checar se ip possui os atributos dentro []
+    let i = 0
+    for ( i  ; i < separados.length; i++){ // adicionar mais um enquanto i for menor que o numero de casas de separados
+       
+    }
+    alert(i)
+}
+    </script>
+</body>
+</html>
