@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset=utf-8 />
+    <title>JS DOM paragraph style</title>
+</head> 
+<body>
+    <p id ='text'>JavaScript Exercises - w3resource</p> 
+    <div>
+    <button id="jsstyle"
+     onclick="mudarcor()">Style</button>
+     </div>
+<script src="atv01.js"></script>
+<style src = "atv01.css"></style>
+  
+  /script >>>  
+
+function mudarcor(){
+    document.getElementById("text").style.color ="red"; //lendo o indereço de text, e adicionando um style tipo color vermelha
+    document.getElementById("text").style.fontSize = "50px"; // lendo o indereço de text e alterando o tamanho da fonte
+    document.getElementById("text").style.fontFamily = "'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-seri"; //lendo o indereço de text e alterando a forma da fonte
+}
+</body>
+        
+</html>
